@@ -1,0 +1,5 @@
+# Introduction {#intro}
+
+The widespread availabilty of data and the desire for data-driven decision-making in business and government has given rise to the hybrid field of Data Science. This rather loose term encompasses databases, statistics, computer science and domain knowledge to enable the translation of data to information that can then be acted upon. This book will focus not on databases per se but on a data science pipeline that includes ingesting data, cleaning and manipulating data, modeling, visualization, and reporting or creating data products (Figure 1). 
+
+Many of the operational aspects of data science are directly imported for well known methods in statistics and computer science, particularly the machine learning and artificial intelligence communities. Data cleaning and validation are central to data science, for the absence of a good analytic dataset will put paid any attempts to model and then generalize results from that data. 

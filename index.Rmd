@@ -1,0 +1,42 @@
+--- 
+title: "Data Science with R and Python"
+author: "Abhijit Dasgupta"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography:
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This book describes how to implement different facets of the data science pipeline in R and Python"
+---
+
+# Prerequisites
+
+This book will describe implementations of different facets of the data science pipeline in R and Python. This of course implies that, to follow along, you would need access to R and Python. 
+
+## R
+
+[R](http://www.r-project.org) is a domain-specific language targeting statistical analysis and data visualization. It is available for all major platforms (Windwos, Mac OS X and Linux) at [CRAN](http://cran.r-project.org), the Comprehensive R Archive Network. Download and install it according to your operating system requirements. 
+
+I also recommend installing [RStudio](http://www.rstudio.com), which is the premiere development environment for R. RStudio is available for free for all major operating systems. 
+
+R has a vast set of user-contributed packages on CRAN, totalling 10694 today. We will be using some of these to make our lives a bit easier. We will be regularly use the following packages:
+
++ `tidyverse` (a meta-package that includes ggplot2, tibble, tidyr, dplyr, readr and purr)
++ `stringr` (for string manipulation)
++ `broom` (for transforming results to usable data structures)
+
+To install a package in R, use the following command from the R command line:
+
+```{r, eval=F}
+install.packages('tidyverse', repos = 'http://cran.r-project.org') # to install tidyverse
+```
+
+## Python
+
+[Python](http://www.python.org) is a general purpose language widely used for data science as well as for web development, among other uses. For the purposes of this book, we will use the Python Data Stack, comprising at its core the packages Numpy, Scipy, Pandas, matplotlib, statsmodels and scikit-learn. 
+
+The easiest way to do this (and install Python generally) is to install the free [Anaconda](http://continuum.io/anaconda) Python distribution, which is geared towards data science and will install the Data Stack packages by default. There are additional packages that one might need for data analyses that are highlighted on the [PyData](http://pydata.org/downloads.html) web page. 
+
