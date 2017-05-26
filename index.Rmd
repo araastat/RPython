@@ -40,3 +40,5 @@ install.packages('tidyverse', repos = 'http://cran.r-project.org') # to install 
 
 The easiest way to do this (and install Python generally) is to install the free [Anaconda](http://continuum.io/anaconda) Python distribution, which is geared towards data science and will install the Data Stack packages by default. There are additional packages that one might need for data analyses that are highlighted on the [PyData](http://pydata.org/downloads.html) web page. 
 
+
+
